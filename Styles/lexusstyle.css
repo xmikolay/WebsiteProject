@@ -1,0 +1,167 @@
+body
+{
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    background-color: #ffffff;
+}
+
+header
+{
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+nav
+{
+    background-color: #ececec; 
+    font-style: italic ;
+    text-align: center;
+    font-size: 75%;
+    padding: 10px;
+}
+
+article {
+    text-align: center;
+    font-size: 120%;
+    flex: 1; 
+    padding: 20px;
+}
+
+aside {
+    text-align: center;
+    width: 50%; 
+    padding: 20px;
+    margin-top: 2%;
+    background-color: #ececec;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+span{
+    background-color: #ececec;
+}
+
+p{
+    font-size: 120%;
+}
+
+li{
+    font-size: 130%;
+}
+
+h1
+{
+    color: #000000;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-size: 3em;
+    font-style: italic;
+    padding: 5px;
+    margin: 0px;
+}
+
+h2
+{
+    color: #000000;   
+}
+
+h3
+{
+    font-size: 200%;
+    font-style: italic;
+}
+
+footer
+{
+    text-align: center;
+    background-color: #ececec;
+    margin-top: auto;
+    clear: both;
+    padding: 0.5%;
+}
+
+table {
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: solid #ececec;
+}
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+}
+
+.under{
+    font-size: 20px;
+    padding-bottom: 5px;
+    margin: 0px;
+    color: #000000;
+    letter-spacing: 0.5px;
+}
+    
+.car {
+    display: inline-block;
+    text-align: center; 
+    margin: 0 20px; 
+}
+    
+.car img {
+    display: block; 
+    width: 250px; 
+    height: auto; 
+}
+    
+.car p {
+    margin-top: 5px;
+}
+
+.bottom-p
+{
+    padding-bottom: 10%;
+}
+
+.aside-imgs
+{
+    padding-top: 10%;
+}
+
+.under-article
+{
+    font-size: 150%;
+}
+
+.imgdescription
+{
+    font-size: 180%;
+    font-style: italic;
+    margin: 0;
+}
+
+.finishingparas
+{
+    text-align: center;
+    padding: 3%;
+    font-size: 150%;  
+}
+
+.img-row
+{
+    display: inline-block;
+    width: 500px;
+    height:auto;
+    margin: 0 20px;
+}
