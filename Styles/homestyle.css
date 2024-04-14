@@ -54,7 +54,7 @@ h1
     color: #000000;
     text-align: center;
     letter-spacing: 1.5px;
-    font-size: 3em;
+    font-size: 300%;
     font-style: italic;
     padding: 5px;
     margin: 0px;
@@ -77,6 +77,16 @@ footer
     margin-top: auto;
     clear: both;
     padding: 0.5%;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    display: inline;
+    margin: 8%;
 }
 
 .container {
@@ -107,11 +117,6 @@ footer
 .car p {
     margin-top: 5px;
 }
-    
-.lexushistory
-{
-    float: center;
-}
 
 .bottom-p
 {
@@ -127,4 +132,12 @@ footer
 .under-article
 {
     font-size: 150%;
+}
+
+.logo 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
 }
